@@ -10,15 +10,16 @@ pip install pandas numpy matplotlib seaborn scipy plotly statsmodels
 ```
 
 ## Introduction
-### Business Questions and Motivations
+### Business Objectives and Goals
 Lending Club, a peer-to-peer lending company, seeks to improve its loan approval process and reduce default rates. The primary business question is: "How can Lending Club refine its lending strategies to minimize loan defaults while optimizing marketing efforts?" This analysis is motivated by the need to enhance Lending Club's lending criteria and marketing strategies based on historical data insights.
 
-## Recommendations
-- **Implement Dynamic Risk Models:** Adopt real-time updates to borrower profiles for early identification and intervention of potential defaulters. This approach allows proactive risk management and reduces the likelihood of defaults.
-- **Strengthen Income Verification:** Accurate income reporting ensures reliable data, helping to avoid errors that obscure important trends. Strengthening verification processes enhances data quality and supports better-informed decisions.
-- **Targeted Marketing Campaigns:** Focus on higher-income brackets to optimize marketing efforts, highlighting the benefits and competitive rates available to these demographics.
-- **Stricter Lending Criteria for High DTI Borrowers:** Set a maximum DTI threshold below 40 for approval or offer higher interest rates to compensate for the increased risk associated with high DTI ratios.
-- **Custom Loan Products:** Develop tailored loan products with flexible repayment plans or lower interest rates for borrowers with lower DTI ratios and higher incomes.
+## Initial Biases and Assumptions
+- The dataset contains a higher proportion of successful loans compared to unsuccessful loans.
+- The data spans loans issued between 2007 and 2016.
+- Annual income data has been categorized based on IRS 2024 income tax brackets, which helps retain valuable data and identify specific income brackets that may need improvement.
+- Debt-to-Income (DTI) ratios have been capped at 70 to exclude outliers that would not significantly impact statistical analysis.
+
+
 
 ## Descriptive Visuals and Explanations
 ### Visual 1: DTI Distribution by Loan Status
@@ -57,6 +58,14 @@ Lending Club, a peer-to-peer lending company, seeks to improve its loan approval
 - Higher DTI ratios are strongly associated with loan defaults.
 - Higher annual incomes correlate with lower default rates.
 - Recommendations include stricter lending criteria, targeted marketing, and dynamic risk models to improve loan performance.
+
+## Recommendations
+- **Implement Dynamic Risk Models:** Adopt real-time updates to borrower profiles for early identification and intervention of potential defaulters. This approach allows proactive risk management and reduces the likelihood of defaults.
+- **Strengthen Income Verification:** Accurate income reporting ensures reliable data, helping to avoid errors that obscure important trends. Strengthening verification processes enhances data quality and supports better-informed decisions.
+- **Targeted Marketing Campaigns:** Focus on higher-income brackets to optimize marketing efforts, highlighting the benefits and competitive rates available to these demographics.
+- **Stricter Lending Criteria for High DTI Borrowers:** Set a maximum DTI threshold below 40 for approval or offer higher interest rates to compensate for the increased risk associated with high DTI ratios.
+- **Custom Loan Products:** Develop tailored loan products with flexible repayment plans or lower interest rates for borrowers with lower DTI ratios and higher incomes.
+
 
 ## Limitations and Future Development
 ### Limitations:
