@@ -60,6 +60,8 @@ Lending Club, a peer-to-peer lending company, seeks to improve its loan approval
 - Recommendations include stricter lending criteria, targeted marketing, and dynamic risk models to improve loan performance.
 
 ## Recommendations
+*Focus on income brackets between below 100K and DTI ranges in lower 20s.*
+
 - **Implement Dynamic Risk Models:** Adopt real-time updates to borrower profiles for early identification and intervention of potential defaulters. This approach allows proactive risk management and reduces the likelihood of defaults.
 - **Strengthen Income Verification:** Accurate income reporting ensures reliable data, helping to avoid errors that obscure important trends. Strengthening verification processes enhances data quality and supports better-informed decisions.
 - **Targeted Marketing Campaigns:** Focus on higher-income brackets to optimize marketing efforts, highlighting the benefits and competitive rates available to these demographics.
